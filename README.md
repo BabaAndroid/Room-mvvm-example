@@ -1,6 +1,8 @@
 <h1>Hello everyone,</h1>
 
-This is a simple example TODO app which created using architecture components.
+<p>
+This is a simple example TODO app which created using architecture components. 
+</p>
 <ol>
   <li>Room</li>
   <li>LiveData</li>
