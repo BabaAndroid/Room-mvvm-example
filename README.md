@@ -11,6 +11,7 @@ This is a simple example TODO app which created using architecture components.
   <li>Repository</li>
   <li>Kotlin</li>
   <li>Kotlin Coroutines</li>
+  <li>Navigation components</li>
 </ol>
 
-This application uses architecture components as guided by Google itself. 
+This application uses architecture components as guided by Google itself. All these architecture coponents work seemlesly with loosly coupled code.
