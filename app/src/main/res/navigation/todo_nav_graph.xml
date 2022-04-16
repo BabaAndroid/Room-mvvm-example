@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/todo_nav_graph"
+    app:startDestination="@id/todoList">
+
+    <fragment
+        android:id="@+id/todoList"
+        android:name="com.medgini.roommaster.ui.fragments.TodoList"
+        android:label="TodoList" >
+        <action
+            android:id="@+id/action_todoList_to_addTodo"
+            app:destination="@id/addTodo" />
+        <action
+            android:id="@+id/action_todoList_to_updateTodo"
+            app:destination="@id/updateTodo" />
+    </fragment>
+    <fragment
+        android:id="@+id/addTodo"
+        android:name="com.medgini.roommaster.ui.fragments.AddTodo"
+        android:label="AddTodo" />
+    <fragment
+        android:id="@+id/updateTodo"
+        android:name="com.medgini.roommaster.ui.fragments.UpdateTodo"
+        android:label="fragment_update_todo"
+        tools:layout="@layout/fragment_update_todo" />
+</navigation>
